@@ -14,6 +14,7 @@ public class SynchronizationDemo1 {
 	public static void main(String[] args) throws InterruptedException  {
 		Countr c=new Countr();// TODO Auto-generated method stub
 		//First Thread
+		
 		Thread t1=new Thread(new Runnable()
 				{
 			@Override
